@@ -1,0 +1,19 @@
+.leftHome{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.leftHome>img{
+    width: 400px;
+}
+
+.leftHome ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.leftHome ul>li>img{
+    width: 100px;
+}
