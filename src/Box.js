@@ -4,7 +4,7 @@ import "./Box.css";
 
 function Box() {
   return (
-    <div>
+    <div id="Box">
       <Side />
       <App />
     </div>

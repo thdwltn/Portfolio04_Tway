@@ -1,0 +1,16 @@
+
+
+#App{
+    width: 500px; height: 1010px;
+    margin: 0 auto;
+    background: url(/public/images/mobileframe.png) no-repeat 0 0;
+    /* background-attachment: fixed; */
+    background-size: 500px; height: 1010px;
+    z-index: 999999;
+}
+#App>div{
+    width: 440px; height: 950px;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+}

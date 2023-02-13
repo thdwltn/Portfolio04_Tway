@@ -1,9 +1,18 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+
 
 function Cart() {
-  return <div>
-
+  return <div className="cartHome">
+    <h3>장바구니</h3>
+    <figure>
+      <img src=""/>
+      <figcaption>
+        <dl>
+          <dt></dt>
+          <dd></dd>
+          <dd></dd>
+        </dl>
+      </figcaption>
+    </figure>
   </div>;
 }
 

@@ -1,0 +1,19 @@
+aside{
+    width: 420px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    position: absolute;
+    bottom: 30px; left: 30px;
+  }
+  aside>ul{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  aside>ul>li>a>svg{
+    font-size: 30px;
+    color: black;
+  }

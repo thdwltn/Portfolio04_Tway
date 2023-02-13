@@ -1,0 +1,139 @@
+/* swiper */
+.swiper {
+    width: 700px;
+    height: 300px;
+  
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+    .swiper-slide img:hover{
+        box-shadow: 2px 2px 4px #666;
+    }
+
+
+/* toggle button */
+#box01 label{
+    width: 120px;
+    height: 50px;
+    display: block;
+    position: relative;
+    border-radius: 2rem;
+    background-color: lightgray;
+    box-shadow: 0 0 1rem 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+    margin: 0 auto 30px;
+  }
+  #box01 label>span{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: white;
+  }
+  #toggle:checked ~ .toggleSwitch{
+    background: red;
+}
+
+#toggle:checked ~ .toggleSwitch .toggleButton{
+    left: calc(100% - 50px);
+    background: white;
+    color: red;
+}
+
+.toggleSwitch, .toggleButton{
+    transition: all 0.2s ease-in;
+}
+
+.toggleButton{
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Hahmlet', serif;
+}
+
+
+
+
+#boxHome{
+    width: 100%; height:754px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#boxHome::-webkit-scrollbar {
+    display: none; }
+    #boxHome>div::-webkit-scrollbar {
+    display: none; }
+    #boxHome>div::-webkit-scrollbar-track {
+    display: none; }
+    #boxHome>div::-webkit-scrollbar-thumb {
+    display: none; }
+
+
+
+#box01{
+    width: 100%; height: 500px;
+    padding: 20px 0;
+}
+#box02{
+    width: 100%; height: 500px;
+    padding: 20px 0;
+}
+#box03{
+    width: 100%; height: 500px;
+    background-color: yellow;
+}
+#box04{
+    width: 100%; height: 500px;
+    background-color: green;
+}
+#box05{
+    width: 100%; height: 500px;
+    background-color: blue;
+}
+#box06{
+    width: 100%; height: 500px;
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: #cac9c9;
+    padding: 20px;
+}
+footer>h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+footer>h4>b{
+    text-decoration: underline;
+}
+footer>ul>li{
+    margin-bottom: 10px;
+    color: #333;
+}
+footer>ul>li>i{
+    font-size: 20px;
+}

@@ -5,9 +5,15 @@ import {
   BiMessageRoundedDots,
   BiSearch
 } from "react-icons/bi";
-function Footer(){
+import './Aside.css'
+
+
+
+
+
+function Aside(){
   return(
-    <footer>
+    <aside>
     <ul>
       <li>
        <Link to="/"><BiHome /></Link>
@@ -28,8 +34,8 @@ function Footer(){
         </Link>
       </li>
     </ul>
-  </footer>
+  </aside>
   )
 }
 
-export default Footer;
+export default Aside;

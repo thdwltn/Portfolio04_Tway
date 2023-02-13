@@ -1,0 +1,41 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "depart": "Incheon",
+        "arrival": "Singgapore",
+        "date": "2022-03-15",
+        "adult": 1,
+        "child":0,
+        "kid":0
+      },
+      {
+        "id": "2",
+        "depart": "Incheon",
+        "arrival": "Japan",
+        "date": "2022-04-25",
+        "adult": 1,
+        "child": 1,
+        "kid":0
+      },
+      {
+        "id": "3",
+        "depart": "Incheon",
+        "arrival": "Jeju",
+        "date": "2022-02-25",
+        "adult": 1,
+        "child":0,
+        "kid":0
+      },
+      {
+        "id": "4",
+        "depart": "Incheon",
+        "arrival": "Guam",
+        "date": "2022-03-17",
+        "adult": 2,
+        "child":0,
+        "kid":1
+      }
+    ]
+  }
+  
